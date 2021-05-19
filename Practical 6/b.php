@@ -34,7 +34,7 @@
         }
         return $res;
     }
-    
+
     $conn = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
     if (!$conn) {
         die("Connection failed: " . mysqli_connect_error());
@@ -57,7 +57,7 @@
 ?>
 <html>
     <head>
-        <title>Task-1</title>
+        <title>Practical 6a</title>
         <style>
             .tab {
                 overflow: hidden;
